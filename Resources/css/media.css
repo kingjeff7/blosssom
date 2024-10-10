@@ -1,0 +1,173 @@
+@media only screen and (max-width:780px){
+
+
+    /* -----header welcome------- */
+    header .welcome{
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+header .welcome h1{
+    font-size: 1.5rem;
+    text-transform:capitalize;
+}
+header .welcome p{
+    font-size: 16px;
+}
+header .welcome .w-btn{
+   width: 80%;
+   }
+  
+header .welcome .w-btn a{
+  padding: 5px 20px;
+ }
+
+
+
+    /* sidebar */
+    .side-cont {
+        display: block;
+    }
+/* nave */
+    nav{
+        display: none;
+    }
+
+    /* logo */
+    .logo1{
+        display: none;
+        left: auto;
+    }
+
+    /* special */
+    .submenu-cont{
+        width: 100%;
+        margin: 50px auto 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    .subm .submenu img{
+        width: 50%;
+        height: auto;
+        display: block;
+        margin: 0 auto 10px ;
+    }
+    .special .section-sub1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .subm .submenu button{
+        position: absolute;
+        top: 0;
+        right: 10px;
+    
+    }
+    .section-sub1 h1{
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 700;
+        margin: 5px;
+    }
+
+    /* submenu-cont2 */
+    .submenu-cont2{
+        width: 100%;
+    }
+
+    .submenu-cont2 .subm2-text{
+        width: 50%;
+        height: 100%;
+        margin: 0 50px 0 30px;
+        
+    }
+    .submenu-cont2 .subm2-text h1{
+        width: 100%;
+        display: block;
+        margin: 50px 0 20px 0;
+        font-size: 1.5rem;
+        font-weight: 600;
+
+
+     }
+     .submenu-cont2 .subm2-text p{
+         font-size: 12px;
+         margin: 0 0 40px 0;
+         font-weight: 100;
+
+      }
+      .submenu-cont2 .subm2-text a{
+        width:60%;
+        display: block;
+        padding:10px 5px;
+        font-weight: 100;
+        font-size: 12px;
+    }
+
+    .submenu-cont2{
+        width: 80%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 50px auto 400px;
+    }
+
+    /* footer begins */
+
+
+    .footer-cont{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows:1fr 1fr;
+        gap: 10px;
+        margin-top: 150px;
+        position: relative;
+        z-index: 100;
+    
+    }
+    
+    hr{
+            margin: 0px auto 0;
+        }
+    
+        footer .box .copy{
+            margin-left: 30px;
+        }
+    
+        footer .box .terms{
+            width: 400px;
+            margin-right: 0;
+            margin-left: 20px;
+            
+        }
+ 
+    /* footer ends */
+
+}
+/* ----desktop-------- */
+@media only screen and (min-width:781px) {
+    /* sidebar */
+
+    .side-cont {
+        display: none;
+    }
+/* nav */
+    nav{
+        display:  block;
+    }
+    /* logo */
+    .logo1{
+        display: block;
+    }
+}
